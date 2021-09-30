@@ -56,6 +56,6 @@ xsetwacom --set 'GAOMON Gaomon Tablet Pad Pad' Button 8 "key +ctrl + -ctrl"
 # GAOMON S620 PEN KEY SETTINGS
 xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 2 "key del"
 ```
-- file that reassigns the lower pen key to Del (for easy erasing of selected fragment), four tablet keys for copy, paste, reduce, enlarge functions.
+- file that reassigns the lower pen key to Del (for easy erasing of selected fragment), four tablet keys for copy, paste, reduce, enlarge scaling functions.
 
 A list of supported keys can be seen with the command **xsetwacom --list modifiers**
