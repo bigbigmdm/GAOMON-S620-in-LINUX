@@ -32,7 +32,7 @@ xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 1 "***"  - is the stylu
 xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 2 "***" - bottom stylus button
 xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 3 "***" - top button
 ```
-where *** is combination of keyword and pressed keys. In the case of function keys (CTRL, ALT, SHIFT, etc.), you will first write the + symbol, then the name of the function key (this symbolises the key being pressed), then the desired key in combination with the function key, then the - symbol, then the function key (this symbolises the key being released). For example, [CTRL] V , will be written as "key +ctrl v -ctrl".
+where *** is combination of the "key" word and pressed keys. In the case of function keys (CTRL, ALT, SHIFT, etc.), you will first write the + symbol, then the name of the function key (this symbolises the key being pressed), then the desired key in combination with the function key, then the - symbol, then the function key (this symbolises the key being released). For example, [CTRL] V , will be written as "key +ctrl v -ctrl".
 
 **For four tablet keys:**
 ```
