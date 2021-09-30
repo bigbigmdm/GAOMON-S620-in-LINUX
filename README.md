@@ -42,10 +42,10 @@ xsetwacom --set 'GAOMON Gaomon Tablet Pad' Button 3 "***"
 xsetwacom --set 'GAOMON Gaomon Tablet Pad' Button 8 "***"
 ```
 where *** is the combination described above.
-From these commands you can create a BASH file and run it before using the tablet:
 
  ![CH341A programmer device](https://github.com/bigbigmdm/GAOMON-S620-in-LINUX/raw/main/gaomon_s620.png)  
-  
+
+From these commands you can create a BASH file and run it before using the tablet: 
 ```
 #!/bin/bash
 # TABLET KEY SETTINGS GAOMON S620
