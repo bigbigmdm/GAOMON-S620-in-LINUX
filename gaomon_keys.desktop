@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GAOMON KEYS
+Comment=Установка клавиш планшета GAOMON S620
+Icon=/home/USER_NAME/GAOMON_S620/ico_tab64.ico
+Exec=./gaomon_keys.sh
+Path=/home/mimi/GAOMON_S620
+Actions=
+Categories=AudioVideo;X-XFCE;X-Xfce-Toplevel;
+Terminal=false
+StartupNotify=false
