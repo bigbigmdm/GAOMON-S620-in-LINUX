@@ -30,7 +30,7 @@ Accordingly, the SETUP/MUSIC and TACHPAD menus now have two GAOMON items instead
 ```
 xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 1 "***"  - is the stylus pen response, best not to change, otherwise the stylus will stop working
 xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 2 "***" - bottom stylus button
-xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 3 "***" - top button
+xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 3 "***" - top stylus button
 ```
 where *** is combination of the "key" word and pressed keys. In the case of function keys (CTRL, ALT, SHIFT, etc.), you will first write the + symbol, then the name of the function key (this symbolises the key being pressed), then the desired key in combination with the function key, then the - symbol, then the function key (this symbolises the key being released). For example, [CTRL] V , will be written as "key +ctrl v -ctrl".
 
