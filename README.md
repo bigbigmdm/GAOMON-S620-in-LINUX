@@ -10,7 +10,7 @@ The following is required for the device to work fully:
 1. change file **/usr/share/X11/xorg.conf.d/70-wacom.conf** (for old LM versions - 50-wacom.conf), added to the end of file:
 ```
 #Gaomon S620
-InputClass" section
+Section "InputClass"
 Identifier "GAOMON Gaomon Tablet"
 MatchUSBID "256c:006d"
 MatchDevicePath "/dev/input/event*"
