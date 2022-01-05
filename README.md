@@ -1,5 +1,5 @@
 # GAOMON-S620-in-LINUX
-Configuring the GAOMON S620 graphics tablet in Linux MINT / DEBIAN / UBUNTU / MX
+Configuring the GAOMON S620 graphics tablet in Linux MINT / DEBIAN / UBUNTU / MX / openSUSE
 
 Out of the box the device works immediately. Positions normally, but is detected by the system as some variant of the touchpad in the SETUP/Mouse and Touchpad menu. Pressing force is displayed correctly in the Krita graphical editor, but the function keys don't work.
 
@@ -7,7 +7,7 @@ The **lsusb** command identifies it as **256c:006d**.
 
 The following is required for the device to work fully:
 
-1. change file **/usr/share/X11/xorg.conf.d/70-wacom.conf** (for old LM versions - 50-wacom.conf), added to the end of file:
+1. change file **/usr/share/X11/xorg.conf.d/70-wacom.conf** for openSUSE **/etc/X11/xorg.conf.d/70-wacom.conf** (for old LM versions - 50-wacom.conf), added to the end of file:
 ```
 #Gaomon S620
 Section "InputClass"
