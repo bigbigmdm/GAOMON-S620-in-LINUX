@@ -7,7 +7,7 @@ The **lsusb** command identifies it as **256c:006d**.
 
 The following is required for the device to work fully:
 
-1. change file **/usr/share/X11/xorg.conf.d/70-wacom.conf** for openSUSE **/etc/X11/xorg.conf.d/70-wacom.conf** (or older versions of LM - 50-wacom.conf. This software does not work with buttons. You can update the wacom driver from the Wacom page on github: https://github.com/linuxwacom/input-wacom/wiki/Installing-input-wacom-from-source ), added to the end of file:
+1. change file **/usr/share/X11/xorg.conf.d/70-wacom.conf** for openSUSE **/etc/X11/xorg.conf.d/70-wacom.conf** (for older versions of LM - 50-wacom.conf. This software does not work with buttons. You can update the wacom driver from the Wacom page on github: https://github.com/linuxwacom/input-wacom/wiki/Installing-input-wacom-from-source ), added to the end of file:
 ```
 #Gaomon S620
 Section "InputClass"
