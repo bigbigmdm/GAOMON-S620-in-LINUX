@@ -69,3 +69,4 @@ xsetwacom --set 'GAOMON Gaomon Tablet Pad pad' Button 1 "key +a +shift b -shift 
 # right click of mouse (read more: https://askubuntu.com/questions/729564/wacom-button-and-mouse-button-setting)
 xsetwacom --set 'GAOMON Gaomon Tablet Pen stylus' Button 2 3
 ```
+See also https://github.com/bigbigmdm/GAOMON-M106K-PRO-in-LINUX
