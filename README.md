@@ -1,3 +1,5 @@
+The Gaomon has now created the correct drivers for Linux. They can be downloaded from the [official website](https://download.gaomon.net/).
+
 # GAOMON-S620-in-LINUX
 Configuring the GAOMON S620 graphics tablet in Linux MINT / DEBIAN / UBUNTU / MX / openSUSE
 
